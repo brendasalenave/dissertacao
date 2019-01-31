@@ -65,6 +65,6 @@ $ python3 main.py
 [analyserfile]: <https://github.com/brendasalenave/dissertacao/blob/master/analyser.py>
 [recommendationfile]: <https://github.com/brendasalenave/dissertacao/blob/master/recommendation.py>
 [ontologyfile]: <https://github.com/brendasalenave/dissertacao/blob/master/ontology.py>
-[onto]: <https://github.com/brendasalenave/dissertacao/blob/master/ontology.py>
+[onto]: <https://github.com/brendasalenave/dissertacao/tree/master/ontology>
 [surpriselib]: <http://surpriselib.com>
 
