@@ -3,7 +3,7 @@
 <p align="justify">O principal objetivo desta pesquisa consiste em desenvolver uma abordagem capaz de analisar
 os informações expressas em redes sociais baseadas em localização (LBSNs) no contexto de recomendação de recursos urbanos com o uso da KDT de modo a relacionar os aspectos referentes a polaridade das informações à confiabilidade dos perfis que as difundiram.
 Para tanto, foram utilizadas abordagens de *Web Mining* no processo de descoberta de conhecimentos e análise de dados.
-As *features* extraídas foram então aplicadas à algoritmos tradicionais de recomendação, baseados em vizinhança e em fatoração de matrizes, de modo a apurar métricas de acurácia com seu uso.? </p>
+As *features* extraídas foram então aplicadas à algoritmos tradicionais de recomendação, baseados em vizinhança e em fatoração de matrizes, de modo a apurar métricas de acurácia com seu uso. </p>
 
 #### Execução
 <p align="justify"> Para a correta execução do código, devem ser instalas as bibliotecas auxiliares utilizadas no desenvolvimento. A instalação destas pode ser feita através do seguinte comando: </p>
@@ -61,7 +61,7 @@ $ python3 main.py
 | [process][processfile] |  script for processing the data to be analyzed |
 | [analyser][analyserfile] | script developed for data analysis of dataset in order to extract indicators to be used in the recommendation process |
 | [recommendation][recommendationfile] |  script where the recommendation algorithms are applied using the [surprise][surpriselib] library |
-| [ontology][ontologyfile] | script for automated population of the [ontology] [onto] from the current data set|
+| [ontology][ontologyfile] | script for automated population of the [ontology][onto] from the current data set|
 
 
 [mainfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
