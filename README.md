@@ -30,15 +30,8 @@ $ python3 main.py
 | [recommendation][recommendationfile] | *script* onde são aplicados os algoritmos de recomendação utilizando a biblioteca [surprise][surpriselib] |
 | [ontology][ontologyfile] | *script* de população automazida da [ontologia][onto] a partir do conjunto de dados atual|
 
-![Alt text](https://github.com/brendasalenave/dissertacao/blob/master/fluxo.svg)
-?| [webscraping][webscrapingfile] | script developed ad-hoc mode for collecting data from the used data source (Foursquare) |
-| [preprocess][preprocessfile] | preprocessing data script |
-| [process][processfile] |  script for processing the data to be analyzed |
-| [analyser][analyserfile] | script developed for data analysis of dataset in order to extract indicators to be used in the recommendation process |
-| [recommendation][recommendationfile] |  script where the recommendation algorithms are applied using the [surprise][surpriselib] library |
-| [ontology][ontologyfile] | script for automated population of the [ontology][onto] from the current data set|
--->
 
+<img src="./fluxo.svg">
 
 [mainfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
 [webscrapingfile]: <https://github.com/brendasalenave/dissertacao/blob/master/webscraping.py>
