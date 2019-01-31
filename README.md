@@ -15,13 +15,15 @@ $ python3 main.py
 | [preprocess][preprocessfile] | *script* de pré-processamento dos dados |
 | [process][processfile] | *script* de processamento dos dados a serem analisados |
 | [analyser][analyserfile] | *script* desenvolvido para análise de dados do *dataset* de moda extrair indicadores a serem utilizados no processo de recomendação |
-| [recommendation][recommendationfile] | descricao aqui |
-| [ontology][ontologyfile] | descricao aqui |
+| [recommendation][recommendationfile] | *script* onde são aplicados os algoritmos de recomendação utilizando a biblioteca [surprise][surpriselib] |
+| [ontology][ontologyfile] | *script* de população automazida da [ontologia][onto] a partir do conjunto de dados atual|
 
 [mainfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
 [webscrapingfile]: <https://github.com/brendasalenave/dissertacao/blob/master/webscraping.py>
 [preprocessfile]: <https://github.com/brendasalenave/dissertacao/blob/master/preprocess.py>
-[processfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
-[analyserfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
+[processfile]: <https://github.com/brendasalenave/dissertacao/blob/master/process.py>
+[analyserfile]: <https://github.com/brendasalenave/dissertacao/blob/master/analyser.py>
 [recommendationfile]: <https://github.com/brendasalenave/dissertacao/blob/master/recommendation.py>
-[ontologyfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
+[ontologyfile]: <https://github.com/brendasalenave/dissertacao/blob/master/ontology.py>
+[onto]: <https://github.com/brendasalenave/dissertacao/blob/master/ontology.py>
+[surpriselib]: <http://surpriselib.com>
