@@ -33,6 +33,16 @@ $ python3 main.py
 
 <img src="./fluxo.svg">
 
+[mainfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
+[webscrapingfile]: <https://github.com/brendasalenave/dissertacao/blob/master/webscraping.py>
+[preprocessfile]: <https://github.com/brendasalenave/dissertacao/blob/master/preprocess.py>
+[processfile]: <https://github.com/brendasalenave/dissertacao/blob/master/process.py>
+[analyserfile]: <https://github.com/brendasalenave/dissertacao/blob/master/analyser.py>
+[recommendationfile]: <https://github.com/brendasalenave/dissertacao/blob/master/recommendation.py>
+[ontologyfile]: <https://github.com/brendasalenave/dissertacao/blob/master/ontology.py>
+[onto]: <https://github.com/brendasalenave/dissertacao/tree/master/ontology>
+[surpriselib]: <http://surpriselib.com>
+
 ---
 
 <p align="justify"> Source code developed for implementation of the practical part referring to the dissertation presented as a partial requirement to obtain a Master's degree in Computer Science. </div>	
@@ -54,12 +64,4 @@ $ pip3 install -r requirements.txt
 $ python3 main.py	
 ```
 
-[mainfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
-[webscrapingfile]: <https://github.com/brendasalenave/dissertacao/blob/master/webscraping.py>
-[preprocessfile]: <https://github.com/brendasalenave/dissertacao/blob/master/preprocess.py>
-[processfile]: <https://github.com/brendasalenave/dissertacao/blob/master/process.py>
-[analyserfile]: <https://github.com/brendasalenave/dissertacao/blob/master/analyser.py>
-[recommendationfile]: <https://github.com/brendasalenave/dissertacao/blob/master/recommendation.py>
-[ontologyfile]: <https://github.com/brendasalenave/dissertacao/blob/master/ontology.py>
-[onto]: <https://github.com/brendasalenave/dissertacao/tree/master/ontology>
-[surpriselib]: <http://surpriselib.com>
+
