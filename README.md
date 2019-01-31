@@ -43,9 +43,11 @@ $ python3 main.py
 [onto]: <https://github.com/brendasalenave/dissertacao/tree/master/ontology>
 [surpriselib]: <http://surpriselib.com>
 
+<hr>
 
+# Extraction os Structured and Non-Structured Indicators and their Application in the Urban Resources Recommendation Process
 
-<p align="justify"> Source code developed for implementation of the practical part referring to the dissertation presented as a partial requirement to obtain a Master's degree in Computer Science. </div>	
+<p align="justify"> Source code developed for implementation of the practical part referring to the dissertation presented as a partial requirement to obtain a Master's degree in Computer Science. </p>	
 
  <p align="justify"> The main objective of this research is to develop an approach capable of analyzing information expressed in social networks based on location (LBSNs) in the context of the recommendation of urban resources with the use of KDT in order to relate the aspects related to the polarity of the information to the reliability of the profiles that disseminated them.	
 In order to do so, we used "Web Mining" approaches in the process of knowledge discovery and data analysis.	
