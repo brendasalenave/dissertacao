@@ -43,6 +43,30 @@ $ python3 main.py
 In order to do so, we used "Web Mining" approaches in the process of knowledge discovery and data analysis.
 The features extracted were then applied to the traditional algorithms of recommendation, based on neighborhood and factoring matrices, in order to ascertain accuracy metrics with its use. </p>
 
+#### Execution
+<p align="justify"> For the correct execution of the code, the auxiliary libraries used in the development must be installed. The installation of these can be done through the following command:  </p>
+
+```sh
+$ pip3 install -r requirements.txt
+```
+
+Execution of the application via the terminal:
+
+```sh
+$ python3 main.py
+```
+
+
+| File | Description |
+| ------ | ------ |
+| [main][mainfile2] | the main file where the invocationcalls to the other methods that compose the execution pipeline are made|
+| [webscraping][webscrapingfile] | script developed ad-hoc mode for collecting data from the used data source (Foursquare) |
+| [preprocess][preprocessfile] | preprocessing data script |
+| [process][processfile] |  script for processing the data to be analyzed |
+| [analyser][analyserfile] | script developed for data analysis of dataset in order to extract indicators to be used in the recommendation process |
+| [recommendation][recommendationfile] |  script where the recommendation algorithms are applied using the [surprise][surpriselib] library |
+| [ontology][ontologyfile] | script for automated population of the [ontology][onto] from the current data set|
+
 
 
 [mainfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
