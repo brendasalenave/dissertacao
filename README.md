@@ -59,7 +59,7 @@ $ python3 main.py
 
 | File | Description |
 | ------ | ------ |
-| [main][mainfile] | the main file where the invocationcalls to the other methods that compose the execution pipeline are made|
+| [main][mainfile2] | the main file where the invocationcalls to the other methods that compose the execution pipeline are made|
 | [webscraping][webscrapingfile] | script developed ad-hoc mode for collecting data from the used data source (Foursquare) |
 | [preprocess][preprocessfile] | preprocessing data script |
 | [process][processfile] |  script for processing the data to be analyzed |
@@ -69,6 +69,7 @@ $ python3 main.py
 
 
 [mainfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
+[mainfile2]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
 [webscrapingfile]: <https://github.com/brendasalenave/dissertacao/blob/master/webscraping.py>
 [preprocessfile]: <https://github.com/brendasalenave/dissertacao/blob/master/preprocess.py>
 [processfile]: <https://github.com/brendasalenave/dissertacao/blob/master/process.py>
