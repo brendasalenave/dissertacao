@@ -1,9 +1,9 @@
 # Extração de Indicadores Estruturados e Não-Estruturados e sua Aplicação no Processo de Recomendação de Recursos Urbanos
 
-O principal objetivo desta pesquisa consiste em desenvolver uma abordagem capaz de analisar
+<p align="justify"> O principal objetivo desta pesquisa consiste em desenvolver uma abordagem capaz de analisar
 os informações expressas em redes sociais baseadas em localização (LBSNs) no contexto de recomendação de recursos urbanos com o uso da KDT de modo a relacionar os aspectos referentes a polaridade das informações à confiabilidade dos perfis que as difundiram.
 Para tanto, foram utilizadas abordagens de *Web Mining* no processo de descoberta de conhecimentos e análise de dados.
-As *features* extraídas foram então aplicadas à algoritmos tradicionais de recomendação, baseados em vizinhança e em fatoração de matrizes, de modo a apurar métricas de acurácia com seu uso.
+As *features* extraídas foram então aplicadas à algoritmos tradicionais de recomendação, baseados em vizinhança e em fatoração de matrizes, de modo a apurar métricas de acurácia com seu uso. </p>
 
 #### Execução
 Para a correta execução do código, devem ser instalas as bibliotecas auxiliares utilizadas no desenvolvimento. A instalação destas pode ser feita através do seguinte comando:
@@ -34,14 +34,14 @@ $ python3 main.py
 
 # Extraction of Structured and Non-Structured Indicators and their Application in the Urban Resources Recommendation Process
 
-Source code developed for implementation of the practical part referring to the dissertation presented as a partial requirement to obtain a Master's degree in Computer Science.
+<p align="justify"> Source code developed for implementation of the practical part referring to the dissertation presented as a partial requirement to obtain a Master's degree in Computer Science. </p>
 
-The main objective of this research is to develop an approach capable of analyzing information expressed in social networks based on location (LBSNs) in the context of the recommendation of urban resources with the use of KDT in order to relate the aspects related to the polarity of the information to the reliability of the profiles that disseminated them.
+<p align="justify"> The main objective of this research is to develop an approach capable of analyzing information expressed in social networks based on location (LBSNs) in the context of the recommendation of urban resources with the use of KDT in order to relate the aspects related to the polarity of the information to the reliability of the profiles that disseminated them.
 In order to do so, we used "Web Mining" approaches in the process of knowledge discovery and data analysis.
-The features extracted were then applied to the traditional algorithms of recommendation, based on neighborhood and factoring matrices, in order to ascertain accuracy metrics with its use.
+The features extracted were then applied to the traditional algorithms of recommendation, based on neighborhood and factoring matrices, in order to ascertain accuracy metrics with its use. </p>
 
 #### Execution
-For the correct execution of the code, the auxiliary libraries used in the development must be installed. The installation of these can be done through the following command:
+<p align="justify"> For the correct execution of the code, the auxiliary libraries used in the development must be installed. The installation of these can be done through the following command:  </p>
 
 ```sh
 $ pip3 install -r requirements.txt
