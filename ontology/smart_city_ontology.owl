@@ -1,0 +1,251 @@
+Prefix(:=<http://www.semanticweb.org/gabriel/ontologies/2018/4/smart_city_ontology#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/gabriel/ontologies/2018/4/smart_city_ontology>
+Annotation(rdfs:comment "Ontology for Recommendation in Smart Cities")
+
+Declaration(Class(:City))
+Declaration(Class(:Location))
+Declaration(Class(:POI))
+Declaration(Class(:Person))
+Declaration(Class(:Recommendation))
+Declaration(Class(:Resident))
+Declaration(Class(:Subject))
+Declaration(Class(:Visitor))
+Declaration(ObjectProperty(:contemplates))
+Declaration(ObjectProperty(:hasInterestIn))
+Declaration(ObjectProperty(:hasLocation))
+Declaration(ObjectProperty(:hasPOIs))
+Declaration(ObjectProperty(:hasRecommendedItem))
+Declaration(ObjectProperty(:nearOf))
+Declaration(ObjectProperty(:residesIn))
+Declaration(DataProperty(:description))
+Declaration(DataProperty(:hasAge))
+Declaration(DataProperty(:hasAvailableTime))
+Declaration(DataProperty(:hasAverageTimeOfStay))
+Declaration(DataProperty(:hasEasyAccessibility))
+Declaration(DataProperty(:hasName))
+Declaration(NamedIndividual(:Aardvark_Inn_Hotel_Pousada))
+Declaration(NamedIndividual(:Accommodation))
+Declaration(NamedIndividual(:Culture))
+Declaration(NamedIndividual(:Florybal_Chocolates))
+Declaration(NamedIndividual(:Food))
+Declaration(NamedIndividual(:Galeto_Italia))
+Declaration(NamedIndividual(:Gramado))
+Declaration(NamedIndividual(:Gramado_Camping))
+Declaration(NamedIndividual(:Hostel_Britanico))
+Declaration(NamedIndividual(:John))
+Declaration(NamedIndividual(:MF_Taberna_e_Biergarden))
+Declaration(NamedIndividual(:Museu_Medieval))
+Declaration(NamedIndividual(:Outdoor))
+Declaration(NamedIndividual(:Per_Voi))
+Declaration(NamedIndividual(:Praca_Major_Nicoletti))
+Declaration(NamedIndividual(:incanto))
+Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
+Declaration(Datatype(:adult))
+Declaration(Datatype(:child))
+Declaration(Datatype(:senior))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :contemplates (:contemplates)
+
+SymmetricObjectProperty(:contemplates)
+IrreflexiveObjectProperty(:contemplates)
+ObjectPropertyDomain(:contemplates :POI)
+ObjectPropertyRange(:contemplates :Subject)
+
+# Object Property: :hasInterestIn (:hasInterestIn)
+
+SymmetricObjectProperty(:hasInterestIn)
+ObjectPropertyDomain(:hasInterestIn :Person)
+ObjectPropertyRange(:hasInterestIn :Subject)
+
+# Object Property: :hasLocation (:hasLocation)
+
+AsymmetricObjectProperty(:hasLocation)
+ObjectPropertyDomain(:hasLocation :POI)
+ObjectPropertyDomain(:hasLocation :Person)
+ObjectPropertyRange(:hasLocation :Location)
+
+# Object Property: :hasPOIs (:hasPOIs)
+
+TransitiveObjectProperty(:hasPOIs)
+ReflexiveObjectProperty(:hasPOIs)
+ObjectPropertyDomain(:hasPOIs :City)
+ObjectPropertyRange(:hasPOIs :POI)
+
+# Object Property: :hasRecommendedItem (:hasRecommendedItem)
+
+ObjectPropertyDomain(:hasRecommendedItem :Recommendation)
+ObjectPropertyRange(:hasRecommendedItem :POI)
+ObjectPropertyRange(:hasRecommendedItem :Person)
+
+# Object Property: :nearOf (:nearOf)
+
+SymmetricObjectProperty(:nearOf)
+IrreflexiveObjectProperty(:nearOf)
+ObjectPropertyDomain(:nearOf :POI)
+ObjectPropertyRange(:nearOf :POI)
+
+# Object Property: :residesIn (:residesIn)
+
+SymmetricObjectProperty(:residesIn)
+ReflexiveObjectProperty(:residesIn)
+ObjectPropertyDomain(:residesIn :Person)
+ObjectPropertyRange(:residesIn :City)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :hasAge (:hasAge)
+
+DataPropertyRange(:hasAge :adult)
+DataPropertyRange(:hasAge :child)
+DataPropertyRange(:hasAge :senior)
+
+# Data Property: :hasAvailableTime (:hasAvailableTime)
+
+DataPropertyDomain(:hasAvailableTime :Person)
+
+# Data Property: :hasAverageTimeOfStay (:hasAverageTimeOfStay)
+
+DataPropertyDomain(:hasAverageTimeOfStay :POI)
+
+# Data Property: :hasEasyAccessibility (:hasEasyAccessibility)
+
+FunctionalDataProperty(:hasEasyAccessibility)
+DataPropertyDomain(:hasEasyAccessibility :POI)
+
+# Data Property: :hasName (:hasName)
+
+FunctionalDataProperty(:hasName)
+DataPropertyDomain(:hasName :Person)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :City (:City)
+
+SubClassOf(:City :Location)
+
+# Class: :POI (:POI)
+
+EquivalentClasses(:POI ObjectSomeValuesFrom(:contemplates :Subject))
+SubClassOf(:POI :Location)
+
+# Class: :Resident (:Resident)
+
+SubClassOf(:Resident :Person)
+
+# Class: :Visitor (:Visitor)
+
+SubClassOf(:Visitor :Person)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :Aardvark_Inn_Hotel_Pousada (:Aardvark_Inn_Hotel_Pousada)
+
+ClassAssertion(:POI :Aardvark_Inn_Hotel_Pousada)
+ObjectPropertyAssertion(:contemplates :Aardvark_Inn_Hotel_Pousada :Accommodation)
+
+# Individual: :Accommodation (:Accommodation)
+
+ClassAssertion(:Subject :Accommodation)
+
+# Individual: :Culture (:Culture)
+
+ClassAssertion(:Subject :Culture)
+
+# Individual: :Florybal_Chocolates (:Florybal_Chocolates)
+
+ClassAssertion(:POI :Florybal_Chocolates)
+ObjectPropertyAssertion(:contemplates :Florybal_Chocolates :Food)
+
+# Individual: :Food (:Food)
+
+ClassAssertion(:Subject :Food)
+
+# Individual: :Galeto_Italia (:Galeto_Italia)
+
+ClassAssertion(:POI :Galeto_Italia)
+ObjectPropertyAssertion(:contemplates :Galeto_Italia :Food)
+
+# Individual: :Gramado (:Gramado)
+
+ClassAssertion(:City :Gramado)
+ObjectPropertyAssertion(:hasPOIs :Gramado :Aardvark_Inn_Hotel_Pousada)
+ObjectPropertyAssertion(:hasPOIs :Gramado :Florybal_Chocolates)
+ObjectPropertyAssertion(:hasPOIs :Gramado :Galeto_Italia)
+ObjectPropertyAssertion(:hasPOIs :Gramado :Gramado_Camping)
+ObjectPropertyAssertion(:hasPOIs :Gramado :Hostel_Britanico)
+ObjectPropertyAssertion(:hasPOIs :Gramado :MF_Taberna_e_Biergarden)
+ObjectPropertyAssertion(:hasPOIs :Gramado :Museu_Medieval)
+ObjectPropertyAssertion(:hasPOIs :Gramado :Per_Voi)
+ObjectPropertyAssertion(:hasPOIs :Gramado :Praca_Major_Nicoletti)
+ObjectPropertyAssertion(:hasPOIs :Gramado :incanto)
+DataPropertyAssertion(:description :Gramado "Gramado é um dos 497 municípios do estado de Rio Grande do Sul. Com área de 237  km², possui 32,2 mil de habitantes e PIB per Capita de R$ 21,0 mil. Localizado na Mesorregião Metropolitana de Porto Alegre, é o 64º município do estado em PIB.")
+
+# Individual: :Gramado_Camping (:Gramado_Camping)
+
+ClassAssertion(:POI :Gramado_Camping)
+ObjectPropertyAssertion(:contemplates :Gramado_Camping :Outdoor)
+
+# Individual: :Hostel_Britanico (:Hostel_Britanico)
+
+ClassAssertion(:POI :Hostel_Britanico)
+ObjectPropertyAssertion(:contemplates :Hostel_Britanico :Accommodation)
+
+# Individual: :John (João)
+
+AnnotationAssertion(rdfs:label :John "João")
+ClassAssertion(:Person :John)
+ClassAssertion(:Visitor :John)
+DataPropertyAssertion(:hasAvailableTime :John "90"^^xsd:integer)
+
+# Individual: :MF_Taberna_e_Biergarden (:MF_Taberna_e_Biergarden)
+
+ClassAssertion(:POI :MF_Taberna_e_Biergarden)
+ObjectPropertyAssertion(:contemplates :MF_Taberna_e_Biergarden :Food)
+
+# Individual: :Museu_Medieval (:Museu_Medieval)
+
+ClassAssertion(:POI :Museu_Medieval)
+ObjectPropertyAssertion(:contemplates :Museu_Medieval :Culture)
+
+# Individual: :Outdoor (:Outdoor)
+
+ClassAssertion(:Subject :Outdoor)
+
+# Individual: :Per_Voi (:Per_Voi)
+
+ClassAssertion(:POI :Per_Voi)
+ObjectPropertyAssertion(:contemplates :Per_Voi :Food)
+
+# Individual: :Praca_Major_Nicoletti (:Praca_Major_Nicoletti)
+
+ClassAssertion(:POI :Praca_Major_Nicoletti)
+ObjectPropertyAssertion(:contemplates :Praca_Major_Nicoletti :Outdoor)
+
+# Individual: :incanto (:incanto)
+
+ClassAssertion(:POI :incanto)
+ObjectPropertyAssertion(:contemplates :incanto :Accommodation)
+
+
+)
