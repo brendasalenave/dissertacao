@@ -21,5 +21,5 @@ $ python3 main.py
 [webscrapingfile]: <https://github.com/brendasalenave/dissertacao/blob/master/webscraping.py>
 [processfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
 [analyserfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
-[recommendationfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
+[recommendationfile]: <https://github.com/brendasalenave/dissertacao/blob/master/recommendation.py>
 [ontologyfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
