@@ -30,7 +30,7 @@ $ python3 main.py
 | [recommendation][recommendationfile] | *script* onde são aplicados os algoritmos de recomendação utilizando a biblioteca [surprise][surpriselib] |
 | [ontology][ontologyfile] | *script* de população automazida da [ontologia][onto] a partir do conjunto de dados atual|
 
-![Alt text](https://github.com/brendasalenave/dissertacao/blob/master/fluxo.svg){:class="img-responsive"}
+![Alt text](https://github.com/brendasalenave/dissertacao/blob/master/fluxo.svg)
 
 ***
 
