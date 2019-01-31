@@ -43,7 +43,7 @@ $ python3 main.py
 [onto]: <https://github.com/brendasalenave/dissertacao/tree/master/ontology>
 [surpriselib]: <http://surpriselib.com>
 
----
+
 
 <p align="justify"> Source code developed for implementation of the practical part referring to the dissertation presented as a partial requirement to obtain a Master's degree in Computer Science. </div>	
 
