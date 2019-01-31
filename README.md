@@ -1,6 +1,6 @@
 # Extração de Indicadores Estruturados e Não-Estruturados e sua Aplicação no Processo de Recomendação de Recursos Urbanos
 
-Código-fonte desenvolvido para implementação da dissertação apresentada como requisito parcial
+Código-fonte desenvolvido para implementação da parte prática referente dissertação apresentada como requisito parcial
 para a obtenção do grau de Mestre em Ciência da Computação.
 
 ```sh
