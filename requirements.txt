@@ -1,0 +1,13 @@
+seaborn>=0.8.1
+pandas>=0.23.4
+pandas-profiling
+numpy=>1.15.2
+surprise==1.0.6
+requests==2.18.4
+bs4==4.5.3
+urllib3==1.22
+stop-words==2015.2.23.1
+spacy==2.0.16
+matplotlib==2.1.2
+scikit-learn==0.19.1
+nltk==3.3
