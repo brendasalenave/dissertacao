@@ -15,7 +15,7 @@ $ python3 main.py
 | [ontology][ontologyfile] | descricao aqui |
 
 [mainfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
-[webscrapingfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
+[webscrapingfile]: <https://github.com/brendasalenave/dissertacao/blob/master/webscraping.py>
 [processfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
 [analyserfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
 [recommendationfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
