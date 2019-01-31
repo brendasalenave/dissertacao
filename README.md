@@ -68,7 +68,7 @@ $ python3 main.py
 
 | File | Description |
 | ------ | ------ |
-| [main][mainfile2] | the main file where the invocationcalls to the other methods that compose the execution pipeline are made|
+| [main][mainfile] | the main file where the invocationcalls to the other methods that compose the execution pipeline are made|
 | [webscraping][webscrapingfile] | script developed ad-hoc mode for collecting data from the used data source (Foursquare) |
 | [preprocess][preprocessfile] | preprocessing data script |
 | [process][processfile] |  script for processing the data to be analyzed |
