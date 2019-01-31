@@ -56,7 +56,7 @@ Execution of the application via the terminal:
 $ python3 main.py
 ```
 
-
+<!---
 | File | Description |
 | ------ | ------ |
 | [main][mainfile2] | the main file where the invocationcalls to the other methods that compose the execution pipeline are made|
@@ -66,11 +66,10 @@ $ python3 main.py
 | [analyser][analyserfile] | script developed for data analysis of dataset in order to extract indicators to be used in the recommendation process |
 | [recommendation][recommendationfile] |  script where the recommendation algorithms are applied using the [surprise][surpriselib] library |
 | [ontology][ontologyfile] | script for automated population of the [ontology][onto] from the current data set|
-
+-->
 
 
 [mainfile]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
-[mainfile2]: <https://github.com/brendasalenave/dissertacao/blob/master/main.py>
 [webscrapingfile]: <https://github.com/brendasalenave/dissertacao/blob/master/webscraping.py>
 [preprocessfile]: <https://github.com/brendasalenave/dissertacao/blob/master/preprocess.py>
 [processfile]: <https://github.com/brendasalenave/dissertacao/blob/master/process.py>
