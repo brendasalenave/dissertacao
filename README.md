@@ -3,8 +3,16 @@
 Código-fonte desenvolvido para implementação da parte prática referente dissertação apresentada como requisito parcial
 para a obtenção do grau de Mestre em Ciência da Computação.
 
+#### Execução
+Para a correta execução do código, devem ser instalas as bibliotecas auxiliares utilizadas no desenvolvimento. A instalação destas pode ser feita através do seguinte comando:
+
 ```sh
 $ pip3 install -r requirements.txt
+```
+
+Execução da aplicação via terminal:
+
+```sh
 $ python3 main.py
 ```
 
