@@ -53,7 +53,8 @@ $ python3 main.py
 In order to do so, we used "Web Mining" approaches in the process of knowledge discovery and data analysis.	
 The features extracted were then applied to the traditional algorithms of recommendation, based on neighborhood and factoring matrices, in order to ascertain accuracy metrics with its use. </p>	
 
- #### Execution	
+ <h4> Execution </h4>
+ 
 <p align="justify"> For the correct execution of the code, the auxiliary libraries used in the development must be installed. The installation of these can be done through the following command:  </p>	
 
  ```sh	
