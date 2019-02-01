@@ -1,4 +1,4 @@
-# Extração de Indicadores Estruturados e Não-Estruturados e sua Aplicação no Processo de Recomendação de Recursos Urbanos
+# Extração e Aplicação de Indicadores no Processo de Recomendação de Recursos Urbanos Utilizando Dados Estruturados e Não-Estruturados
 
 <p align="justify">O principal objetivo desta pesquisa consiste em desenvolver uma abordagem capaz de analisar
 os informações expressas em redes sociais baseadas em localização (LBSNs) no contexto de recomendação de recursos urbanos com o uso da KDT de modo a relacionar os aspectos referentes a polaridade das informações à confiabilidade dos perfis que as difundiram.
@@ -45,7 +45,7 @@ $ python3 main.py
 
 <hr>
 
-# Extraction os Structured and Non-Structured Indicators and their Application in the Urban Resources Recommendation Process
+# Extraction and Application of Indicators in the Urban Resource Recommendation Process Using Structured and Non-Structured Data
 
 <p align="justify"> Source code developed for implementation of the practical part referring to the dissertation presented as a partial requirement to obtain a Master's degree in Computer Science. </p>	
 
